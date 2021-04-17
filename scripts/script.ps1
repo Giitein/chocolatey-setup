@@ -22,6 +22,7 @@ choco install git
 choco install sourcetree
 
 #Utilities
+choco install soulseek
 choco install slack
 choco install irfanview
 choco install qbittorrent
