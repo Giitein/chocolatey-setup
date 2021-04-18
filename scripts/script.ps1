@@ -16,6 +16,7 @@ choco install mpv
 choco install youtube-dl
 choco install notepadplusplus
 choco install fzf
+choco install fd
 
 #Git stuff
 choco install git
