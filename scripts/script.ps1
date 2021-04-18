@@ -37,3 +37,7 @@ choco install eartrumpet
 
 ECHO Disabling Global Confirmation
 choco feature disable -n allowGlobalConfirmation
+
+ECHO Downloading With FZF
+cd C:\Windows
+curl https://raw.githubusercontent.com/Giitein/chocolatey-setup/master/with.bat -O with.bat
