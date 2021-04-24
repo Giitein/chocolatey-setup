@@ -26,6 +26,7 @@ choco install sourcetree
 choco install soulseek
 choco install slack
 choco install irfanview
+choco install imageglass
 choco install qbittorrent
 choco install audacity
 choco install obs-studio
@@ -38,6 +39,5 @@ choco install eartrumpet
 ECHO Disabling Global Confirmation
 choco feature disable -n allowGlobalConfirmation
 
-ECHO Downloading With FZF
-cd C:\Windows
-curl https://raw.githubusercontent.com/Giitein/chocolatey-setup/master/with.bat -O with.bat
+ECHO Installing "With FZF"
+move "..\with.bat" "C:\Windows"
